@@ -37,4 +37,8 @@ public class TodoList {
   public int getSize() {
     return items.size();
   }
+
+  public void editItemTitle(int itemIndex, String newTitle) {
+    items.get(itemIndex).editTitle(newTitle);
+  }
 }
